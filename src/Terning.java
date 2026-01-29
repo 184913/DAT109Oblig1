@@ -4,7 +4,7 @@ public class Terning {
 
     //Konstruktør for terning
     public Terning() {
-        verdi = 0;
+        this.verdi = verdi;
     }
 
     //Triller terning
