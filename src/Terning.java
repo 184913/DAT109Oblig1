@@ -4,7 +4,10 @@ public class Terning {
 
     //Triller terning
     public int trill() {
-        verdi = (int) (Math.random() * 6) - 1); //Tilfeldig verdi fra 1 til 6
+        //Tilfeldig verdi fra 1 til 6
+        verdi = (int) (Math.random() * 6) - 1;
         return verdi;
     }
+
+
 }
