@@ -8,9 +8,8 @@ public class Brett {
 
     //Metoden for å finne hvilke rute en brikke står på
     public Rute finnRute(int sum){
-        int pos = brikke.getPosisjon();
+        int pos = brikke.getRute();
 
-        // antar at posisjon matcher indeks
         return ruter.get(pos);
     }
 }
