@@ -16,7 +16,7 @@ public class Spiller {
         int sum = Terning.trill();
 
         //finner den nye ruten
-        nyRute = flytt(brikke.getRute(), sum);
+        Rute nyRute = flytt(brikke.getRute(), sum);
 
         //Oppdater brikken med ny rute
         brikke.setRute(nyRute);
