@@ -6,10 +6,9 @@ public class Brett {
     //Liste av alle brikkene
     private List <Brikke > b;
 
-    //Metoden som finnerRuten brikken står på
-    private Rute finnRute(){
-        int pos = Brikke.getPosisjon();
+    //Metoden som finner ruten brikken står på
+    private Rute finnRute(int sum, Rute rute){
 
-        return r.get(pos);
+        return Brikke.getPosisjon() + sum;
     }
 }
