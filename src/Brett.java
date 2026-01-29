@@ -1,10 +1,12 @@
+import java.util.List;
+
 public class Brett {
 
     //Liste med alle rutene våres
-    private List<Rute> r;
+    private List<Rute> ruter;
 
     //Liste av alle brikkene
-    private List <Brikke > b;
+    private List<Brikke> brikker;
 
     //Metoden som finner ruten brikken står på
     private Rute finnRute(int sum, Rute rute){
