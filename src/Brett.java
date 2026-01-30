@@ -9,8 +9,8 @@ public class Brett {
     private List<Brikke> brikker;
 
     //Metoden som finner ruten brikken står på
-    private Rute finnRute(int sum, Rute rute){
+    private Rute finnRuteNr(int sum, Rute rute){
 
-        return Brikke.getPosisjon() + sum;
+        return Brikke.getRute().getNr() + sum;
     }
 }
