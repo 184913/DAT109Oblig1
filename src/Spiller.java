@@ -9,6 +9,9 @@ public class Spiller {
         this.brikke = brikke;
     }
 
+    public Rute getRute(){
+        return brikke.getRute();
+    }
 
     public void spillTrekk() {
 
@@ -16,7 +19,7 @@ public class Spiller {
         int sum = Terning.trill();
 
         //finner den nye ruten
-        Rute nyRute = flytt(brikke.getRute(), sum);
+        Rute nyRute = finnNyRute(brikke.getRute(), sum);
 
         //Oppdater brikken med ny rute
         brikke.setRute(nyRute);

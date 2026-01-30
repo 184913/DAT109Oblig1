@@ -8,8 +8,8 @@ public class Brett {
     //Liste av alle brikkene
     private List<Brikke> brikker;
 
-    //Metoden som finner ruten brikken står på
-    private Rute finnRuteNr(int sum, Rute rute){
+    //Metoden som finner ruten brikken skal flyttes til
+    private Rute finnNyRute(int sum, Rute rute){
 
         return Brikke.getRute().getNr() + sum;
     }
