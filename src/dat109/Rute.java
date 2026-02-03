@@ -1,3 +1,5 @@
+package dat109;
+
 public class Rute {
 
     private int nr;

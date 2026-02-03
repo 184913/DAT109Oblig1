@@ -1,3 +1,5 @@
+package dat109;
+
 public class Brikke {
 
     private String navn;

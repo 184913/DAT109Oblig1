@@ -1,3 +1,5 @@
+package dat109;
+
 public class Spiller {
 
     private String navn;
@@ -28,8 +30,12 @@ public class Spiller {
 
     }
 
+    public String getNavn(){
+        return this.navn;
+    }
+
     public void skrivUt(){
-        System.out.println("navn: " + this.navn + "brett: " + this.brett + "brikke: " + this.brikke);
+        System.out.println("navn: " + this.navn + " | " + "rute: " + this.brikke.getRute().getNr());
     }
 
 }

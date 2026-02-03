@@ -1,3 +1,5 @@
+package dat109;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -14,11 +16,17 @@ public class Stigespill {
          this.brett = new Brett();
          this.spillere = new ArrayList<>();
 
-        Spiller s1 = new Spiller("a", new  Brikke("a sin brikke", new Rute(0)), brett);
-        Spiller s2 = new Spiller("b", new  Brikke("b sin brikke", new Rute(0)), brett);
+        Brikke b1 = new Brikke("a sin brikke", brett.getRuter().get(0));
+        Brikke b2 = new Brikke("b sin brikke", brett.getRuter().get(0));
+
+        Spiller s1 = new Spiller("a", b1, brett);
+        Spiller s2 = new Spiller("b", b2, brett);
 
         spillere.add(s1);
         spillere.add(s2);
+
+        brett.leggTilBrikke(b1);
+        brett.leggTilBrikke(b2);
 
     }
 
@@ -27,12 +35,21 @@ public class Stigespill {
      */
     public void spill() {
 
-        while(!brett.brikkePaaSisteRute()) {
+        while(!brett.brikkePaaSisteRute()){
             spillRunde();
             for(Spiller spiller : spillere) {
                 spiller.skrivUt();
+
             }
         }
+
+        for(Spiller spiller : spillere) {
+            if (spiller.getRute().getNr() == 100) {
+                System.out.println("Spillet er ferdig! Vinneren er: " + spiller.getNavn());
+                break;
+            }
+        }
+
     }
 
     /**

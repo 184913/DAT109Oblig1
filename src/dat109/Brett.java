@@ -1,3 +1,5 @@
+package dat109;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -19,7 +21,7 @@ public class Brett {
     }
 
     private void opprettRuter() {
-        for (int i = 0; i < ANTALL_RUTER; i++) {
+        for (int i = 1; i <= ANTALL_RUTER; i++) {
             ruter.add(new Rute(i));
         }
     }
@@ -33,7 +35,7 @@ public class Brett {
             nyIndex = ANTALL_RUTER - (nyIndex - ANTALL_RUTER);
         }
 
-        return ruter.get(nyIndex);
+        return ruter.get(nyIndex - 1);
     }
 
     public boolean brikkePaaSisteRute() {
@@ -43,5 +45,13 @@ public class Brett {
             }
         }
         return false;
+    }
+
+    public List<Rute> getRuter(){
+        return ruter;
+    }
+
+    public void leggTilBrikke(Brikke brikke){
+        brikker.add(brikke);
     }
 }
