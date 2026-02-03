@@ -28,4 +28,8 @@ public class Spiller {
 
     }
 
+    public void skrivUt(){
+        System.out.println("navn: " + this.navn + "brett: " + this.brett + "brikke: " + this.brikke);
+    }
+
 }
