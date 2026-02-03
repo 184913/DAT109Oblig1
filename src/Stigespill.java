@@ -18,7 +18,7 @@ public class Stigespill {
      */
     public void spillRunde() {
 
-        for (Spiller spiller : spillere {
+        for (Spiller spiller : spillere) {
                 Spiller.spillTrekk();
         }
 
