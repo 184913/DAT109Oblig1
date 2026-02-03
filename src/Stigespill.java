@@ -10,7 +10,9 @@ public class Stigespill {
      */
     public void spill() {
 
-
+        while(!Brett.brikkePaaSisteRute()) {
+            spillRunde();
+        }
     }
 
     /**
@@ -19,7 +21,7 @@ public class Stigespill {
     public void spillRunde() {
 
         for (Spiller spiller : spillere) {
-                Spiller.spillTrekk();
+            spiller.spillTrekk();
         }
 
     }

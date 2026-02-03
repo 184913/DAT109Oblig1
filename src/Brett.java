@@ -20,9 +20,9 @@ public class Brett {
         return ruter.get(nyIndex);
     }
 
-    public boolean brikkePaaSisteRute(){
-        for(Brikke b : brikker){
-            if(b.getRute().getNr() == 100){
+    public boolean brikkePaaSisteRute() {
+        for (Brikke brikke : brikker) {
+            if (brikke.getRute().getNr() == 100) {
                 return true;
             }
         }
