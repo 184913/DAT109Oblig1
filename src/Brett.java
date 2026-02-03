@@ -11,6 +11,12 @@ public class Brett {
     //Metoden som finner ruten brikken skal flyttes til
     private Rute finnNyRute(int sum, Rute rute){
 
-        return new Rute(Brikke.getRute().getNr() + sum);
+        int nyIndex = sum + rute.getNr();
+
+        if(nyIndex > 100){
+            nyindex = 100 - (nyindex - 100);
+        }
+
+        return ruter.get(nyIndex);
     }
 }
