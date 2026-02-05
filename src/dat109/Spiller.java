@@ -22,7 +22,11 @@ public class Spiller {
         return brikke.getRute();
     }
 
-    //Metode for trille terning, og flytte brikken til en ny rute
+    /**
+     * Spiller ett trekk for spiller instansen
+     * <p>
+     * Kaller på trill() og finner en ny rute før den setter brikken tilhørende spilleren på den nye ruten
+     */
     public void spillTrekk() {
 
         //Triller terning

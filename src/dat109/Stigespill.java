@@ -4,7 +4,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Klasse for å initialisere stigespillet
+ * Klasse for å håndtere stigespillet
+ * <p>
+ * Inneholder logikk for å opprette spillere, brett og brikker,
+ * samt spill løkken som stryrer spillets gang
+ *
  */
 public class Stigespill {
 
@@ -12,7 +16,10 @@ public class Stigespill {
     private Brett brett;
 
     /**
-     * Metode som oppretter alle modulene i stigespillet
+     * Oppretter stigespillet med hardkodet data
+     * <p>
+     * Oppretter nytt brett, spillere og brikker
+     *
      */
     public Stigespill(){
 
@@ -34,7 +41,10 @@ public class Stigespill {
     }
 
     /**
-     * Metode for å initalisere spillet
+     * Starter spill løkken
+     * <p>
+     * Løkken kjører så lenge ingen spillere er på siste rute.
+     * For hver spiller kjøres spillRunde().
      */
     public void spill() {
 
@@ -56,12 +66,19 @@ public class Stigespill {
     }
 
     /**
-     * Metode som representerer en spill runde
+     * Representerer en spill runde
+     * <p>
+     * Hver spiller gjør et trekk.
+     * Etter hvert trekk sjekkes det om det er en brikke på siste rute.
      */
     public void spillRunde() {
 
         for (Spiller spiller : spillere) {
             spiller.spillTrekk();
+
+            if (brett.brikkePaaSisteRute()) {
+                break; // stopper runden så snart noen vinner
+            }
         }
 
     }

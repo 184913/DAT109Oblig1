@@ -1,7 +1,7 @@
 package dat109;
 
 /**
- * klasse som håndterer brikkene på brettet
+ * Klasse som håndterer brikkene på brettet
  */
 
 public class Brikke {

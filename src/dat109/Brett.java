@@ -4,7 +4,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * klasse for å håndtere brettet
+ * Klasse for å håndtere brettet
+ * <p>
+ * Inneholder logikk for å opprette ruter tilhørende instansen av brettet,
+ * finne en ny rute tilhørende brettet og
+ * sjekke om en brikke er på siste rute
  */
 
 public class Brett {
@@ -26,14 +30,24 @@ public class Brett {
         opprettRuter();
     }
 
-    //Metode som opretter rutene på brettet
+    /**
+     * Oppretter et antall lik ANTALL_RUTER av ruter
+     */
     private void opprettRuter() {
         for (int i = 1; i <= ANTALL_RUTER; i++) {
             ruter.add(new Rute(i));
         }
     }
 
-    //Metoden som finner ruten brikken skal flyttes til
+    /**
+     * Finner en ny rute tilhørende brettet
+     * <p>
+     * Hvis ny index er større en ANTALL_RUTER returneres det en rute som
+     * er ny index antall bak ruten gitt i parameteren
+     * @param sum
+     * @param rute
+     * @return Rute
+     */
     public Rute finnNyRute(int sum, Rute rute){
 
         //Finner nummeret på den nye ruten brikken skal flyttes til
@@ -48,6 +62,12 @@ public class Brett {
     }
 
     //Sjekker det finnes en brikke som står på siste rute
+
+    /**
+     * Sjekker om det finnes en brikke som står på siste rute.
+     * Hvis det står en brikke på siste rute returneres det true.
+     * @return boolean
+     */
     public boolean brikkePaaSisteRute() {
         for (Brikke brikke : this.brikker) {
             if (brikke.getRute().getNr() == ANTALL_RUTER) {

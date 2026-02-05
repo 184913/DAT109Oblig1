@@ -3,7 +3,8 @@ package dat109;
 public  class Terning {
 
     /**
-     * Metode for å trille en terning
+     * Triller en terning som returnerer et tall mellom 1 til 6.
+     * @Return Tilfeldig tall mellom 1-6
      */
     public static int trill() {
 
