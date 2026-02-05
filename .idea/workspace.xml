@@ -6,8 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="f43f7246-e89b-4178-9f8e-fd3afbfed291" name="Changes" comment="init commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAT109Oblig1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DAT109Oblig1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dat109Test/BrettTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dat109Test/BrettTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dat109/dat109/Brett.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/dat109/dat109/Brett.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dat109/dat109/Spiller.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/dat109/dat109/Spiller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dat109/dat109/Stigespill.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/dat109/dat109/Stigespill.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dat109/dat109/Terning.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/dat109/dat109/Terning.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dat109Test/BrikkeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dat109Test/BrikkeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dat109Test/RuteTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dat109Test/SpillerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dat109Test/SpillerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +57,7 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.BrettTest.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",

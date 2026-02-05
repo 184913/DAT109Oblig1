@@ -17,4 +17,8 @@ public class Rute {
     public int getNr(){
         return nr;
     }
+
+    public void setNr(int nr) {
+        this.nr = nr;
+    }
 }

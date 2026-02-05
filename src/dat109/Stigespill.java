@@ -82,4 +82,8 @@ public class Stigespill {
         }
 
     }
+
+    public List<Spiller> getSpillere() {
+        return spillere;
+    }
 }
