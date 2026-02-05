@@ -11,10 +11,13 @@ public class Stigespill {
     private List<Spiller> spillere;
     private Brett brett;
 
+    /**
+     * Metode som oppretter alle modulene i stigespillet
+     */
     public Stigespill(){
 
-         this.brett = new Brett();
-         this.spillere = new ArrayList<>();
+        this.brett = new Brett();
+        this.spillere = new ArrayList<>();
 
         Brikke b1 = new Brikke("a sin brikke", brett.getRuter().get(0));
         Brikke b2 = new Brikke("b sin brikke", brett.getRuter().get(0));

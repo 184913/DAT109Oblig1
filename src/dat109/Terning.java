@@ -2,7 +2,9 @@ package dat109;
 
 public  class Terning {
 
-    //Triller terning
+    /**
+     * Metode for å trille en terning
+     */
     public static int trill() {
 
         //Tilfeldig verdi fra 1 til 6

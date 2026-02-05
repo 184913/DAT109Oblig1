@@ -1,5 +1,9 @@
 package dat109;
 
+/**
+ * Klasse for å opprette en spiller
+ */
+
 public class Spiller {
 
     private String navn;
@@ -13,10 +17,12 @@ public class Spiller {
         this.brett = brett;
     }
 
+    //Returnerer ruten spilleren står på
     public Rute getRute(){
         return brikke.getRute();
     }
 
+    //Metode for trille terning, og flytte brikken til en ny rute
     public void spillTrekk() {
 
         //Triller terning
@@ -30,10 +36,12 @@ public class Spiller {
 
     }
 
+    //Returnerer navnet på spilleren
     public String getNavn(){
         return this.navn;
     }
 
+    //Skrivet ut navnet og ruten til spilleren
     public void skrivUt(){
         System.out.println("navn: " + this.navn + " | " + "rute: " + this.brikke.getRute().getNr());
     }

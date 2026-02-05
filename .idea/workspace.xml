@@ -5,20 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f43f7246-e89b-4178-9f8e-fd3afbfed291" name="Changes" comment="init commit">
-      <change afterPath="$PROJECT_DIR$/src/dat109/Brett.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dat109/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DAT109Oblig1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DAT109Oblig1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Brett.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Brikke.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dat109/Brikke.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Rute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dat109/Rute.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Spiller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dat109/Spiller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Stigespill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dat109/Stigespill.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Terning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dat109/Terning.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
