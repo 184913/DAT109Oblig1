@@ -5,20 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f43f7246-e89b-4178-9f8e-fd3afbfed291" name="Changes" comment="init commit">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dat109/Brett.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dat109/Brett.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dat109/Brikke.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dat109/Brikke.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dat109/Spiller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dat109/Spiller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dat109/Stigespill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dat109/Stigespill.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dat109/Terning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dat109/Terning.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dat109/dat109/Brett.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/dat109/dat109/Brett.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dat109/dat109/Brikke.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/dat109/dat109/Brikke.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dat109/dat109/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/dat109/dat109/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dat109/dat109/Rute.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/dat109/dat109/Rute.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dat109/dat109/Spiller.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/dat109/dat109/Spiller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dat109/dat109/Stigespill.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/dat109/dat109/Stigespill.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dat109/dat109/Terning.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/dat109/dat109/Terning.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DAT109Oblig1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DAT109Oblig1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dat109Test/BrettTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dat109Test/BrettTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
